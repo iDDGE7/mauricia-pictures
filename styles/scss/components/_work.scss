@@ -1,0 +1,28 @@
+// work styles
+
+.background-color-our-work {
+    background: #ffffff;
+}
+
+.background-info-our-work {
+    background: #617a99;
+    &:after {
+        background-color: #deb597;
+    }
+}
+
+.title-color-our-work {
+    color: white;
+}
+
+.description-color-our-work {
+    color: white;
+}
+
+.color-button-our-work {
+    color: white;
+
+    &::after {
+        border-top: dashed #deb597;
+    }
+}

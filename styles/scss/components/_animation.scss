@@ -1,0 +1,60 @@
+@keyframes AnimationLogoHero {
+  0% {
+    transform: translateY(100%);
+  }
+
+  20% {
+    transform: translateY(75%);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  75% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes textHeroAnimate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes barSection {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-height: 700px) {
+  @keyframes barSection {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10vw;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  @keyframes barSection {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20vw;
+    }
+  }
+}
