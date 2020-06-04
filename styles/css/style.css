@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
 .background-color-about-us {
   background: #617a99; }
 
@@ -348,7 +349,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Proxima Nova;
+  font-family: 'proxima-nova', sans-serif;
   transition: all 0.5s; }
 
 body {
@@ -864,3 +865,9 @@ body {
             margin-top: 40px;
             font-size: 13px;
             line-height: 15px; } }
+
+@keyframes barSection {
+  from {
+    width: 0; }
+  to {
+    width: 7vw; } }
