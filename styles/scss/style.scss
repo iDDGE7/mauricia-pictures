@@ -338,6 +338,7 @@ body {
           display: flex;
           flex-direction: column;
           justify-content: center;
+          background: seagreen;
           @media screen and (max-width: 900px) {
             min-height: 35vh;
             width: 90%;
@@ -654,5 +655,15 @@ body {
         }
       }
     }
+  }
+}
+
+
+@keyframes barSection {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7vw;
   }
 }
