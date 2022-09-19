@@ -1,0 +1,206 @@
+// Text transform
+
+.upper {
+    text-transform: uppercase !important;
+}
+
+.lower {
+    text-transform: lowercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-justify {
+    text-align: justify;
+}
+
+// Color text
+
+.cl-slateGray {
+    color: var(--slateGray);
+}
+
+.cl-indigo {
+    color: var(--indigo);
+}
+
+.cl-dark {
+    color: var(--dark);
+}
+
+.cl-light {
+    color: var(--light);
+}
+
+.cl-lightSilver {
+    color: var(--lightSilver);
+}
+
+.cl-burlywood {
+    color: var(--burlywood);
+}
+
+.cl-crimson {
+    color: var(--crimson);
+}
+
+// font weight
+@for $i from 1 to 10 {
+    .fw-#{$i*100} {
+        font-weight: #{$i * 100} !important;
+    }
+}
+
+@for $i from 1 to 15 {
+    .mx-wd-#{$i*100} {
+        max-width: #{$i * 100}px;
+    }
+}
+
+@media all and (min-width: 2048px) {
+    @for $i from 1 to 15 {
+        .mx-wd-xl-#{$i*100} {
+            max-width: #{$i * 100}px;
+        }
+    }
+}
+
+//size text
+
+.fs-title {
+    font-size: 2.5em;
+
+    @media all and (min-width: 400px) {
+        font-size: 2.5em;
+    }
+
+    @media all and (min-width: 700px) {
+        font-size: 3em;
+    }
+
+    @media all and (min-width: 900px) {
+        font-size: 3.5em;
+    }
+
+    @media all and (min-width: 1200px) {
+        font-size: 4.5em;
+    }
+
+    @media all and (min-width: 2048px) {
+        font-size: 6em;
+    }
+}
+
+.fs-description {
+    font-size: 1em;
+    line-height: 1.5em;
+
+    @media all and (min-width: 400px) {
+        font-size: 1.1em;
+    }
+
+    @media all and (min-width: 700px) {
+        font-size: 1.1em;
+    }
+
+    @media all and (min-width: 900px) {
+        font-size: 1.1em;
+    }
+
+    @media all and (min-width: 1200px) {
+        font-size: 1.1em;
+    }
+
+    @media all and (min-width: 2048px) {
+        font-size: 2em;
+        max-width: 800px;
+    }
+}
+
+// font size
+
+@for $i from 1 to 10 {
+    .fs-0-#{$i} {
+        font-size: #{$i / 10}em;
+        line-height: normal;
+    }
+
+    @media all and (min-width: 400px) {
+        .fs-sm-0-#{$i} {
+            font-size: #{$i / 10}em;
+            line-height: normal;
+        }
+    }
+
+    @media all and (min-width: 700px) {
+        .fs-md-0-#{$i} {
+            font-size: #{$i / 10}em;
+            line-height: normal;
+        }
+    }
+
+    @media all and (min-width: 900px) {
+        .fs-lg-0-#{$i} {
+            font-size: #{$i / 10}em;
+            line-height: normal;
+        }
+    }
+
+    @media all and (min-width: 1200px) {
+        .fs-xl-0-#{$i} {
+            font-size: #{$i / 10}em;
+            line-height: normal;
+        }
+    }
+}
+
+@for $i from 1 to 7 {
+    @for $j from 0 to 10 {
+        .fs-#{$i}-#{$j} {
+            font-size: #{$i + $j / 10}em;
+            line-height: normal;
+        }
+
+        @media all and (min-width: 400px) {
+            .fs-sm-#{$i}-#{$j} {
+                font-size: #{$i + $j / 10}em;
+                line-height: normal;
+            }
+        }
+
+        @media all and (min-width: 700px) {
+            .fs-md-#{$i}-#{$j} {
+                font-size: #{$i + $j / 10}em;
+                line-height: normal;
+            }
+        }
+
+        @media all and (min-width: 900px) {
+            .fs-lg-#{$i}-#{$j} {
+                font-size: #{$i + $j / 10}em;
+                line-height: normal;
+            }
+        }
+
+        @media all and (min-width: 1200px) {
+            .fs-xl-#{$i}-#{$j} {
+                font-size: #{$i + $j / 10}em;
+                line-height: normal;
+            }
+        }
+    }
+}

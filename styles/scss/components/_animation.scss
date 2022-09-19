@@ -1,60 +1,109 @@
 @keyframes AnimationLogoHero {
-  0% {
-    transform: translateY(100%);
-  }
+    0% {
+        transform: translateY(100%);
+    }
 
-  20% {
-    transform: translateY(75%);
-  }
+    20% {
+        transform: translateY(75%);
+    }
 
-  50% {
-    transform: translateY(50%);
-  }
+    50% {
+        transform: translateY(50%);
+    }
 
-  75% {
-    transform: translateY(100%);
-  }
+    75% {
+        transform: translateY(100%);
+    }
 
-  100% {
-    transform: translateY(0%);
-  }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 @keyframes textHeroAnimate {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @keyframes barSection {
-  from {
-    width: 0;
-  }
-  to {
-    width: 7vw;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 7vw;
+    }
+}
+
+@keyframes showIn{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
 }
 
 @media screen and (orientation: landscape) and (max-height: 700px) {
-  @keyframes barSection {
-    from {
-      width: 0;
+    @keyframes barSection {
+        from {
+            width: 0;
+        }
+        to {
+            width: 10vw;
+        }
     }
-    to {
-      width: 10vw;
-    }
-  }
 }
 @media screen and (max-width: 500px) {
-  @keyframes barSection {
-    from {
-      width: 0;
+    @keyframes barSection {
+        from {
+            width: 0;
+        }
+        to {
+            width: 20vw;
+        }
     }
-    to {
-      width: 20vw;
-    }
-  }
+}
+
+
+.fade-in-out {
+    // margin-top: 20px;
+    // text-align: center;
+    // font-style: normal;
+    // font-weight: bold;
+    // font-size: 18px;
+    // line-height: 29px;
+    // letter-spacing: 0.5em;
+    // text-transform: uppercase;
+    // transform: translateY(0%);
+    // color: #ffffff;
+    // max-width: 600px;
+    // opacity: 1;
+    // margin-top: 2em;
+    animation: textHeroAnimate 1s alternate infinite;
+
+    // @media screen and(max-width: 785px) {
+    //     max-width: 300px;
+    //     text-align: center;
+    //     font-size: 10px;
+    // }
+
+    // @media screen and(max-width: 1062px) {
+    //     font-size: 14px;
+    //     max-width: 300px;
+    // }
+
+    // @media screen and (min-width: 3800px) {
+    //     font-size: 50px;
+    //     max-width: 30vw;
+    //     letter-spacing: 0.3em;
+    //     line-height: 80px;
+    // }
+
+    // @media screen and (orientation: landscape) and (max-height: 400px) {
+    //     font-size: 10px;
+    // }
 }

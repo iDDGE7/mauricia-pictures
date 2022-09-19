@@ -1,0 +1,45 @@
+.link {
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    user-select: none;
+    width: fit-content;
+   
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        transition: all 0.5s;
+    }
+
+    &:hover {
+        transition: all 0.5s;
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+.link-accent-burlywood {
+    &::after {
+        background: var(--burlywood);
+    }
+}
+
+.link-accent-crimson {
+    &::after {
+        background: var(--crimson);
+    }
+}
+
+.link-accent-slateGray {
+    &::after {
+        background: var(--slateGray);
+    }
+}

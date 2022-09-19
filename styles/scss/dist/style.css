@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@keyframes AnimationLogoHero {
+  0% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(75%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  75% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes textHeroAnimate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes barSection {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7vw;
+  }
+}
+@keyframes showIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 700px) {
+  @keyframes barSection {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10vw;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  @keyframes barSection {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20vw;
+    }
+  }
+}
+.fade-in-out {
+  animation: textHeroAnimate 1s alternate infinite;
+}
+
+:root {
+  --slateGray: #617a99;
+  --indigo: #274060;
+  --dark: #353535;
+  --light: #ffffff;
+  --lightSilver: #d2d7df;
+  --burlywood: #deb597;
+  --crimson: #e31634;
+  --maximumGreen: #638537;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+
+body {
+  background: var(--light);
+}
+
+#logoHero {
+  width: 250px;
+  height: 250px;
+}
+@media all and (orientation: landscape) and (max-height: 400px) {
+  #logoHero {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media all and (min-width: 2048px) {
+  #logoHero {
+    width: 500px;
+    height: 500px;
+  }
+}
+#logoHero svg {
+  transform: translateY(0%);
+  animation: AnimationLogoHero 5s;
+  width: 100%;
+  height: 100%;
+}
+
+#lineScrollHero {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 7px;
+  height: 150px;
+  background-color: #fff;
+  z-index: 80;
+}
+@media screen and (min-width: 3800px) {
+  #lineScrollHero {
+    width: 20px;
+    height: 400px;
+  }
+}
+#lineScrollHero::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #343d4a;
+  animation: scrollDownFx 3s infinite alternate ease-in-out;
+}
+@media screen and (min-width: 3800px) {
+  #lineScrollHero::before {
+    height: 40px;
+  }
+}
+#lineScrollHero::after {
+  position: absolute;
+  content: "scroll down";
+  transform: translate(-100%, -25%) rotate(-90deg);
+  font-size: 12px;
+  color: white;
+  animation: scrollDownFx 3s infinite alternate ease-in-out;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 785px) {
+  #lineScrollHero::after {
+    transform: translate(10%, -25%) rotate(-90deg);
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 3800px) {
+  #lineScrollHero::after {
+    font-size: 30px;
+  }
+}
+@keyframes scrollDownFx {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+.before-rectangle-right::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  transform: translate(3%, 3%);
+}
+@media screen and (max-width: 900px) {
+  .before-rectangle-right::before {
+    transform: translate(3%, 3%);
+  }
+}
+
+.rectangle-darkTransparent::before {
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.rectangle-slateGray::before {
+  background: var(--slateGray);
+}
+
+.link-line-after {
+  position: relative;
+}
+.link-line-after::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  transition: all 0.5s;
+}
+.link-line-after:hover {
+  transition: all 0.5s;
+}
+.link-line-after:hover::after {
+  width: 100%;
+}
+
+.link-line-burlywood::after {
+  background: var(--burlywood);
+}
+
+.link-line-crimson::after {
+  background: var(--crimson);
+}
+
+.link-line-slateGray::after {
+  background: var(--slateGray);
+}
+
+.line-top-accent:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 2em;
+  width: 100px;
+  height: 0.7rem;
+  animation: barSection 1s;
+}
+@keyframes barSection {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+.line-top-crimson:after {
+  background: var(--crimson);
+}
+
+.line-top-burlywood:after {
+  background: var(--burlywood);
+}
+
+.line-top-maximumGreen:after {
+  background: var(--maximumGreen);
+}
+
+.line-banner-page {
+  position: relative;
+}
+.line-banner-page::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: calc(0.2vh + 5px);
+  transform: translateY(calc(100% + 1vh));
+  background: #617a99;
+  border-radius: 100%;
+  animation: lineAnimate 1s;
+}

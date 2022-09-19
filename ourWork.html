@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="styles/css/style.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="/js/main.js" type="module"></script>
+     <title>Our Work</title>
+</head>
+
+<body>
+
+     <!-- Loader -->
+     <!-- <div id="loaderMauricia">
+          <div class="flex flex-col justify-center items-center">
+               <div class="overflow-hidden flex items-end relative mb-10">
+                    <svg class="logo-p1 mx-0.5" width="29" height="198" viewBox="0 0 29 198" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M0 198V0.747559L28.1789 29.217V198H0Z" fill="white" />
+                    </svg>
+                    <svg class="logo-p2 mx-0.5" width="29" height="157" viewBox="0 0 29 157" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M0.253906 157V0.00317383L28.4328 26.107V157H0.253906Z" fill="white" />
+                    </svg>
+                    <svg class="logo-p3 mx-0.5" width="29" height="121" viewBox="0 0 29 121" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M0.511719 121V0.233154L28.6906 28.4121V121H0.511719Z" fill="white" />
+                    </svg>
+                    <svg class="logo-p4 mx-0.5" width="29" height="145" viewBox="0 0 29 145" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M28.9453 145V0.079834L0.766384 22.6948V145H28.9453Z" fill="white" />
+                    </svg>
+                    <svg class="logo-p5 mx-0.5" width="29" height="182" viewBox="0 0 29 182" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M28.2012 182V0.849609L0.0222435 25.9437V182H28.2012Z" fill="white" />
+                    </svg>
+                    <svg class="logo-p6 mx-0.5" width="29" height="213" viewBox="0 0 29 213" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M28.457 213V4.23385e-05L0.278103 23.7986V213H28.457Z" fill="white" />
+                    </svg>
+               </div>
+               <h1 class="text-light uppercase text-2xl font-medium tracking-heroTitle">Mauricia</h1>
+          </div>
+     </div> -->
+
+     <!-- Menu -->
+     <header class="flex justify-end fixed w-full z-50 top-0 left-0 px-12 py-20" id="mainHeader">
+          <nav class="hidden md:flex gap-x-4">
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="index.html">Home</a>
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="aboutUs.html">About us</a>
+               <a class="text-dark bg-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="ourWork.html">Our Work</a>
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="contactUs.html">Contact Us</a>
+          </nav>
+
+          <button class="inline md:hidden" id="buttonOpenMenu">
+               <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.26014 12.5988C0.925927 12.5988 0.605406 12.4661 0.369085 12.2297C0.132764 11.9934 0 11.6729 0 11.3387V1.26014C0 0.925926 0.132764 0.605406 0.369085 0.369085C0.605406 0.132764 0.925927 0 1.26014 0H11.3412C11.6754 0 11.9959 0.132764 12.2323 0.369085C12.4686 0.605406 12.6014 0.925926 12.6014 1.26014V11.3387C12.6014 11.6729 12.4686 11.9934 12.2323 12.2297C11.9959 12.4661 11.6754 12.5988 11.3412 12.5988H1.26014ZM18.902 12.5988C18.5678 12.5988 18.2473 12.4661 18.011 12.2297C17.7747 11.9934 17.6419 11.6729 17.6419 11.3387V1.26014C17.6419 0.925926 17.7747 0.605406 18.011 0.369085C18.2473 0.132764 18.5678 0 18.902 0H28.9806C29.3148 0 29.6353 0.132764 29.8716 0.369085C30.108 0.605406 30.2407 0.925926 30.2407 1.26014V11.3387C30.2407 11.6729 30.108 11.9934 29.8716 12.2297C29.6353 12.4661 29.3148 12.5988 28.9806 12.5988H18.902ZM1.26014 30.2407C0.925927 30.2407 0.605406 30.108 0.369085 29.8716C0.132764 29.6353 0 29.3148 0 28.9806V18.8995C0 18.5653 0.132764 18.2448 0.369085 18.0085C0.605406 17.7721 0.925927 17.6394 1.26014 17.6394H11.3412C11.6754 17.6394 11.9959 17.7721 12.2323 18.0085C12.4686 18.2448 12.6014 18.5653 12.6014 18.8995V28.9806C12.6014 29.3148 12.4686 29.6353 12.2323 29.8716C11.9959 30.108 11.6754 30.2407 11.3412 30.2407H1.26014ZM18.902 30.2407C18.5678 30.2407 18.2473 30.108 18.011 29.8716C17.7747 29.6353 17.6419 29.3148 17.6419 28.9806V18.8995C17.6419 18.5653 17.7747 18.2448 18.011 18.0085C18.2473 17.7721 18.5678 17.6394 18.902 17.6394H28.9806C29.3148 17.6394 29.6353 17.7721 29.8716 18.0085C30.108 18.2448 30.2407 18.5653 30.2407 18.8995V28.9806C30.2407 29.3148 30.108 29.6353 29.8716 29.8716C29.6353 30.108 29.3148 30.2407 28.9806 30.2407H18.902Z"
+                         fill="white" />
+               </svg>
+
+          </button>
+     </header>
+
+     <!-- Menu Mobile-->
+     <header
+          class="flex justify-center items-center fixed -top-full left-0 w-full h-full opacity-0 bg-dark bg-footerBG bg-bottom bg-no-repeat z-50"
+          id="headerMobile">
+          <nav class="flex flex-col gap-y-7">
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="index.html">Home</a>
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="aboutUs.html">About us</a>
+               <a class="text-dark bg-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="ourWork.html">Our Work</a>
+               <a class="text-light px-3 py-1 whitespace-nowrap rounded hover:bg-darkTransparent hover:text-light"
+                    href="contactUs.html">Contact Us</a>
+          </nav>
+
+          <button class="absolute right-5 top-5 w-12 h-12" id="buttonCloseMenu">
+               <svg class="w-full h-full" width="66" height="65" viewBox="0 0 66 65" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.324 32.4647L64.57 8.21763C65.2369 7.55016 65.6049 6.65968 65.606 5.71015C65.606 4.76009 65.238 3.86855 64.57 3.20214L62.4453 1.07795C61.7773 0.408902 60.8868 0.0424805 59.9362 0.0424805C58.9872 0.0424805 58.0967 0.408902 57.4287 1.07795L33.1827 25.3234L8.93564 1.07795C8.2687 0.408902 7.37769 0.0424805 6.42763 0.0424805C5.47862 0.0424805 4.58761 0.408902 3.92067 1.07795L1.7949 3.20214C0.411465 4.58558 0.411465 6.83577 1.7949 8.21763L26.0415 32.4647L1.7949 56.7107C1.12744 57.3792 0.75996 58.2697 0.75996 59.2193C0.75996 60.1688 1.12744 61.0593 1.7949 61.7273L3.92015 63.8515C4.58709 64.52 5.47862 64.8869 6.4271 64.8869C7.37716 64.8869 8.26817 64.52 8.93511 63.8515L33.1822 39.6054L57.4282 63.8515C58.0962 64.52 58.9867 64.8869 59.9357 64.8869H59.9367C60.8863 64.8869 61.7768 64.52 62.4448 63.8515L64.5695 61.7273C65.2364 61.0598 65.6044 60.1688 65.6044 59.2193C65.6044 58.2697 65.2364 57.3792 64.5695 56.7113L40.324 32.4647Z"
+                         fill="#fff" />
+               </svg>
+
+          </button>
+     </header>
+
+     <!-- Banner -->
+     <div class="flex justify-center relative bg-bannerOurWork bg-cover bg-center">
+          <div class="flex flex-col justify-center items-center w-11/12 max-w-screen-2xl min-h-min py-44 z-10 relative">
+               <h1
+                    class="uppercase font-extrabold text-2xl sm:text-5xl text-light text-center tracking-heroTitle max-w-3xl mb-10 line-banner-page">
+                    WATCH A SELECT FEW OF WORKS
+
+               </h1>
+               <h2 class="uppercase max-w-screen-sm text-light font-medium text-center text-xs sm:text-base">
+                    SPANNING SEVERAL GENRES AND PRODUCTION SIZES.
+
+               </h2>
+          </div>
+     </div>
+
+     <!-- buttons works video or photography -->
+     <div class="w-full flex justify-center p-10">
+          <button id="buttonVideos"
+               class="px-8 py-3 bg-[#395E8B] text-white font-bold text-sm sm:text-2xl">Videos</button>
+          <button id="buttonImages"
+               class="px-8 py-3 bg-[#474747] text-white font-bold text-sm sm:text-2xl">Photography</button>
+     </div>
+
+
+     <h1 id="currentCategory"
+          class="text-5xl sm:text-5xl md:text-6xl uppercase mb-10 font-bold object-to-mov text-center title-filter opacity-100">
+          ALL VIDEOS
+     </h1>
+
+     <!-- Portafolio Photography -->
+     <div id="portafolioImages" class="hidden flex-col justify-center items-center w-full h-full py-10 mb-15">
+          <div class="w-full max-w-[1400px] flex flex-wrap justify-center gap-2 mb-20">
+
+               <input class="input-filter-images hidden" type="radio" id="AllImages" name="all_images"
+                    value="all images">
+
+               <label for="AllImages"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="flex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <svg class="w-full h-full" width="46" height="46" viewBox="0 0 46 46" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M44.4162 21.9167H23.4161V0.916598C23.4161 0.502632 23.0809 0.166626 22.6661 0.166626C22.2513 0.166626 21.9161 0.502632 21.9161 0.916598V21.9166H0.915989C0.501232 21.9167 0.166016 22.2527 0.166016 22.6667C0.166016 23.0806 0.501232 23.4166 0.915989 23.4166H21.916V44.4167C21.916 44.8306 22.2513 45.1666 22.666 45.1666C23.0808 45.1666 23.416 44.8306 23.416 44.4167V23.4166H44.416C44.8308 23.4166 45.166 23.0806 45.166 22.6667C45.166 22.2527 44.831 21.9167 44.4162 21.9167Z"
+                                   fill="white" />
+                              <path d="M44.166 27.0833H28.5826C27.7992 27.0833 27.166 27.7179 27.166 28.4999V44.0832C27.166 44.8652 27.7992 45.4999 28.5826 45.4999H44.166C44.9494 45.4999 45.5826 44.8652 45.5826 44.0832V28.4999C45.5826 27.7179 44.9494 27.0833 44.166 27.0833Z"
+                                   fill="white" />
+                              <path d="M17 26.9166H1.41661C0.633183 26.9166 0 27.5513 0 28.3332V43.9166C0 44.6986 0.633183 45.3332 1.41661 45.3332H17C17.7834 45.3332 18.4166 44.6986 18.4166 43.9166V28.3332C18.4166 27.5513 17.7834 26.9166 17 26.9166Z"
+                                   fill="white" />
+                              <path d="M17 0H1.41661C0.633183 0 0 0.634677 0 1.41661V17C0 17.7819 0.633183 18.4166 1.41661 18.4166H17C17.7834 18.4166 18.4166 17.7819 18.4166 17V1.41661C18.4166 0.634677 17.7834 0 17 0Z"
+                                   fill="white" />
+                              <path d="M44.166 0.166626H28.5826C27.7992 0.166626 27.166 0.801303 27.166 1.58324V17.1666C27.166 17.9486 27.7992 18.5832 28.5826 18.5832H44.166C44.9494 18.5832 45.5826 17.9486 45.5826 17.1666V1.58324C45.5826 0.801303 44.9494 0.166626 44.166 0.166626Z"
+                                   fill="white" />
+                         </svg>
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">ALL Images</p>
+               </label>
+
+
+               <input class="input-filter-images hidden" type="radio" id="DCNASymposium2021" name="DCNASymposium2021"
+                    value="DCNA Symposium 2021">
+
+               <label for="DCNASymposium2021"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">DCNA Symposium 2021</p>
+               </label>
+
+               <input class="input-filter-images hidden" type="radio" id="CTBGlobalTradeSymposium"
+                    name="CTB_Global_Trade_Symposium" value="CTB Global Trade Symposium">
+
+               <label for="CTBGlobalTradeSymposium"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">CTB Global Trade Symposium
+                    </p>
+               </label>
+
+
+               <input class="input-filter-images hidden" type="radio" id="CTBNewCeo" name="CTB_New_Ceo"
+                    value="CTB New Ceo">
+
+               <label for="CTBNewCeo"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">CTB New Ceo</p>
+               </label>
+
+
+               <input class="input-filter-images hidden" type="radio" id="CTBKorsouTaDushi" name="CTB_Korsou_ta_Dushi"
+                    value="CTB Korsou ta Dushi">
+
+               <label for="CTBKorsouTaDushi"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">CTB: Korsou ta Dushi</p>
+               </label>
+
+
+               <input class="input-filter-images hidden" type="radio" id="General" name="general" value="general">
+
+               <label for="General"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">General</p>
+               </label>
+
+
+               <input class="input-filter-images hidden" type="radio" id="HospitalityPhotoshoot"
+                    name="Hospitality_Photoshoot" value="Hospitality Photoshoot">
+
+               <label for="HospitalityPhotoshoot"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">Hospitality Photoshoot</p>
+               </label>
+
+               <input class="input-filter-images hidden" type="radio" id="KLMMarathonAruba2022"
+                    name="KLM_marathon_Aruba_2022" value="KLM marathon Aruba 2022">
+
+               <label for="KLMMarathonAruba2022"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">KLM marathon Aruba 2022
+                    </p>
+               </label>
+
+               <input class="input-filter-images hidden" type="radio" id="LabDeMed" name="Lab_De_Med"
+                    value="Lab De Med">
+
+               <label for="LabDeMed"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">Lab De Med</p>
+               </label>
+
+               <input class="input-filter-images hidden" type="radio" id="OceanX" name="OceanX" value="OceanX">
+
+               <label for="OceanX"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">OceanX</p>
+               </label>
+
+               <input class="input-filter-images hidden" type="radio" id="TNOTour" name="TNO_Tour" value="TNO Tour">
+
+               <label for="TNOTour"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">TNO Tour</p>
+               </label>
+
+          </div>
+
+          <div class="w-11/12 max-w-screen-xl flex flex-wrap gap-10 justify-center opacity-100"
+               id="containerImagesPortafolio">
+               <div class="card-image group w-full sm:w-[300px] h-[400px] cursor-pointer relative rounded-md overflow-hidden shadow-cards relative z-[1]"
+                    id="1">
+                    <div
+                         class="h-full w-full bg-cover bg-top bg-[url('https://www.mauriciapictures.com/wp-content/uploads/2022/06/hin-bong-yeung-210244-unsplash.jpg')] group-hover:scale-110 absolute top-0 left-0 z-[-1]">
+                    </div>
+                    <span
+                         class="h-full w-full bg-[rgba(1,1,1,0.4)] group-hover:bg-[rgba(1,1,1,0.1)] absolute top-0 left-0 z-[-1]"></span>
+                    <h2
+                         class="text-white mx-4 mb-1 text-xs font-normal max-h-[15px] overflow-hidden text-ellipsis absolute bottom-3">
+                         title
+                    </h2>
+               </div>
+          </div>
+     </div>
+
+     <!-- portafolio videos -->
+     <div id="portafolioVideos" class="flex flex-col justify-center items-center w-full h-full py-10 mb-15">
+          <div class="flex flex-wrap justify-center gap-2 mb-20">
+
+               <input class="input-filter-videos hidden" type="radio" id="AllVideos" name="all_videos"
+                    value="all videos">
+
+               <label for="AllVideos"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="flex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <svg class="w-full h-full" width="46" height="46" viewBox="0 0 46 46" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M44.4162 21.9167H23.4161V0.916598C23.4161 0.502632 23.0809 0.166626 22.6661 0.166626C22.2513 0.166626 21.9161 0.502632 21.9161 0.916598V21.9166H0.915989C0.501232 21.9167 0.166016 22.2527 0.166016 22.6667C0.166016 23.0806 0.501232 23.4166 0.915989 23.4166H21.916V44.4167C21.916 44.8306 22.2513 45.1666 22.666 45.1666C23.0808 45.1666 23.416 44.8306 23.416 44.4167V23.4166H44.416C44.8308 23.4166 45.166 23.0806 45.166 22.6667C45.166 22.2527 44.831 21.9167 44.4162 21.9167Z"
+                                   fill="white" />
+                              <path d="M44.166 27.0833H28.5826C27.7992 27.0833 27.166 27.7179 27.166 28.4999V44.0832C27.166 44.8652 27.7992 45.4999 28.5826 45.4999H44.166C44.9494 45.4999 45.5826 44.8652 45.5826 44.0832V28.4999C45.5826 27.7179 44.9494 27.0833 44.166 27.0833Z"
+                                   fill="white" />
+                              <path d="M17 26.9166H1.41661C0.633183 26.9166 0 27.5513 0 28.3332V43.9166C0 44.6986 0.633183 45.3332 1.41661 45.3332H17C17.7834 45.3332 18.4166 44.6986 18.4166 43.9166V28.3332C18.4166 27.5513 17.7834 26.9166 17 26.9166Z"
+                                   fill="white" />
+                              <path d="M17 0H1.41661C0.633183 0 0 0.634677 0 1.41661V17C0 17.7819 0.633183 18.4166 1.41661 18.4166H17C17.7834 18.4166 18.4166 17.7819 18.4166 17V1.41661C18.4166 0.634677 17.7834 0 17 0Z"
+                                   fill="white" />
+                              <path d="M44.166 0.166626H28.5826C27.7992 0.166626 27.166 0.801303 27.166 1.58324V17.1666C27.166 17.9486 27.7992 18.5832 28.5826 18.5832H44.166C44.9494 18.5832 45.5826 17.9486 45.5826 17.1666V1.58324C45.5826 0.801303 44.9494 0.166626 44.166 0.166626Z"
+                                   fill="white" />
+                         </svg>
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">ALL VIDEOS</p>
+               </label>
+
+               <input class="input-filter-videos hidden" type="radio" id="MusicVideos" name="music_videos"
+                    value="music">
+
+               <label for="MusicVideos"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="fflex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <img class="w-full h-full"
+                              src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/Music-Video.png" alt="">
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">MUSIC</p>
+               </label>
+
+               <input class="input-filter-videos hidden" type="radio" id="CorporateVideos" name="corporate_videos"
+                    value="corporate">
+
+               <label for="CorporateVideos"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="fflex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <img class="w-full h-full"
+                              src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/Corporate.png" alt="">
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">Corporate</p>
+               </label>
+
+               <input class="input-filter-videos hidden" type="radio" id="WeddingVideos" name="wedding_videos"
+                    value="wedding">
+
+               <label for="WeddingVideos"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="fflex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <img class="w-full h-full"
+                              src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/diamond.png" alt="">
+
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">Wedding</p>
+               </label>
+
+               <input class="input-filter-videos hidden" type="radio" id="CommercialVideos" name="commercial_videos"
+                    value="commercial">
+
+               <label for="CommercialVideos"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3 cursor-pointer">
+                    <div class="fflex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <img class="w-full h-full"
+                              src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/Ad.png" alt="">
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">Commercials</p>
+               </label>
+
+               <input class="input-filter-videos hidden" type="radio" id="AfterMovie" name="after_videos"
+                    value="after movie">
+
+               <label for="AfterMovie"
+                    class="flex items-center hover:bg-darkTransparent bg-slateGray px-2 py-2 sm:px-6 sm:py-3  cursor-pointer">
+                    <div class="fflex justify-center items-center w-5 h-5 sm:w-8 sm:h-8 mr-4">
+                         <img class="w-full h-full"
+                              src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/After-Movie.png" alt="">
+                    </div>
+                    <p class="text-light text-center text-xs sm:text-sm font-bold capitalize">After Movie</p>
+               </label>
+
+          </div>
+
+          <div class="w-11/12 max-w-screen-xl flex flex-wrap gap-10 justify-center opacity-100"
+               id="containerVideosPortafolio">
+               <div
+                    class="card-video group w-full sm:w-[350px] h-[300px] cursor-pointer relative rounded-md overflow-hidden shadow-cards relative z-[1]">
+                    <div
+                         class="h-full w-full bg-cover bg-top bg-[url('https://www.mauriciapictures.com/wp-content/uploads/2022/06/hin-bong-yeung-210244-unsplash.jpg')] group-hover:scale-110 absolute top-0 left-0 z-[-1]">
+                    </div>
+                    <span class="h-full w-full bg-[rgba(1,1,1,0.4)] absolute top-0 left-0 z-[-1]"></span>
+                    <h2
+                         class="text-white mx-4 mb-1 text-2xl font-bold max-h-[40px] overflow-hidden text-ellipsis p-2 absolute bottom-2">
+                         SMART METER
+                    </h2>
+               </div>
+          </div>
+     </div>
+
+     <!-- modal video -->
+     <div id="modalVideo" class="fixed w-full h-full -top-full left-0 z-400 bg-dark flex justify-center items-center">
+          <button id="buttonCloseModalVideo"
+               class="flex justify-center items-center absolute right-4 top-4 p-2 bg-light rounded-full"
+               id="buttonCloseModalVideo">
+               <svg class="h-full w-full" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.3041 15L29.5207 3.78293C29.8293 3.47415 29.9995 3.0622 30 2.62293C30 2.18342 29.8298 1.77098 29.5207 1.46268L28.5378 0.480001C28.2288 0.170489 27.8168 0.000976562 27.3771 0.000976562C26.938 0.000976562 26.5261 0.170489 26.2171 0.480001L15.0005 11.6963L3.78341 0.480001C3.47488 0.170489 3.06268 0.000976562 2.62317 0.000976562C2.18415 0.000976562 1.77195 0.170489 1.46341 0.480001L0.48 1.46268C-0.16 2.10268 -0.16 3.14366 0.48 3.78293L11.6968 15L0.48 26.2166C0.17122 26.5259 0.00121951 26.9378 0.00121951 27.3771C0.00121951 27.8163 0.17122 28.2283 0.48 28.5373L1.46317 29.52C1.77171 29.8293 2.18415 29.999 2.62293 29.999C3.06244 29.999 3.47463 29.8293 3.78317 29.52L15.0002 18.3034L26.2168 29.52C26.5259 29.8293 26.9378 29.999 27.3768 29.999H27.3773C27.8166 29.999 28.2285 29.8293 28.5376 29.52L29.5205 28.5373C29.829 28.2285 29.9993 27.8163 29.9993 27.3771C29.9993 26.9378 29.829 26.5259 29.5205 26.2168L18.3041 15Z"
+                         fill="#434343" />
+               </svg>
+          </button>
+
+          <button id="previousVideo" class="absolute left-6 w-10 h-10 sm:w-20 sm:h-20 opacity-80 z-[200]">
+               <svg class="w-full h-full" width="252" height="252" viewBox="0 0 252 252" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M126 0C92.5827 0 60.5341 13.275 36.9045 36.9045C13.275 60.5341 0 92.5827 0 126C0 159.417 13.275 191.466 36.9045 215.095C60.5341 238.725 92.5827 252 126 252C159.417 252 191.466 238.725 215.095 215.095C238.725 191.466 252 159.417 252 126C252 92.5827 238.725 60.5341 215.095 36.9045C191.466 13.275 159.417 0 126 0V0ZM181.125 118.125C183.214 118.125 185.217 118.955 186.693 120.432C188.17 121.908 189 123.911 189 126C189 128.089 188.17 130.092 186.693 131.568C185.217 133.045 183.214 133.875 181.125 133.875H89.8852L123.701 167.674C124.433 168.407 125.013 169.276 125.41 170.233C125.806 171.189 126.01 172.215 126.01 173.25C126.01 174.285 125.806 175.311 125.41 176.267C125.013 177.224 124.433 178.093 123.701 178.826C122.968 179.558 122.099 180.138 121.142 180.535C120.186 180.931 119.16 181.135 118.125 181.135C117.09 181.135 116.064 180.931 115.108 180.535C114.151 180.138 113.282 179.558 112.549 178.826L65.2995 131.576C64.5661 130.844 63.9843 129.975 63.5873 129.018C63.1903 128.061 62.9859 127.036 62.9859 126C62.9859 124.964 63.1903 123.939 63.5873 122.982C63.9843 122.025 64.5661 121.156 65.2995 120.424L112.549 73.1745C114.028 71.6958 116.034 70.865 118.125 70.865C120.216 70.865 122.222 71.6958 123.701 73.1745C125.179 74.6532 126.01 76.6588 126.01 78.75C126.01 80.8412 125.179 82.8468 123.701 84.3255L89.8852 118.125H181.125Z"
+                         fill="white" />
+               </svg>
+          </button>
+
+          <button id="nextVideo" class="absolute right-6 w-10 h-10 sm:w-20 sm:h-20 opacity-80 z-[200]">
+               <svg class="w-full h-full" width="252" height="252" viewBox="0 0 252 252" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M126 252C159.417 252 191.466 238.725 215.095 215.095C238.725 191.466 252 159.417 252 126C252 92.5827 238.725 60.5341 215.095 36.9045C191.466 13.275 159.417 0 126 0C92.5827 0 60.5341 13.275 36.9045 36.9045C13.275 60.5341 0 92.5827 0 126C0 159.417 13.275 191.466 36.9045 215.095C60.5341 238.725 92.5827 252 126 252V252ZM70.875 133.875C68.7864 133.875 66.7834 133.045 65.3065 131.568C63.8297 130.092 63 128.089 63 126C63 123.911 63.8297 121.908 65.3065 120.432C66.7834 118.955 68.7864 118.125 70.875 118.125L162.115 118.125L128.299 84.3255C127.567 83.5933 126.987 82.7241 126.59 81.7674C126.194 80.8108 125.99 79.7855 125.99 78.75C125.99 77.7145 126.194 76.6892 126.59 75.7326C126.987 74.7759 127.567 73.9067 128.299 73.1745C129.032 72.4423 129.901 71.8615 130.858 71.4653C131.814 71.069 132.84 70.8651 133.875 70.8651C134.91 70.8651 135.936 71.069 136.892 71.4653C137.849 71.8615 138.718 72.4423 139.451 73.1745L186.701 120.424C187.434 121.156 188.016 122.025 188.413 122.982C188.81 123.939 189.014 124.964 189.014 126C189.014 127.036 188.81 128.061 188.413 129.018C188.016 129.975 187.434 130.844 186.701 131.576L139.451 178.826C137.972 180.304 135.966 181.135 133.875 181.135C131.784 181.135 129.778 180.304 128.299 178.826C126.821 177.347 125.99 175.341 125.99 173.25C125.99 171.159 126.821 169.153 128.299 167.674L162.115 133.875L70.875 133.875Z"
+                         fill="white" />
+               </svg>
+          </button>
+          <div class="w-11/12 h-5/6 grid grid-cols-1 md:grid-cols-customSection gap-5 p-1 md:p-20 relative">
+               <iframe id="iframeVideo" class="w-full h-[300px]  md:h-full shadow-shadowLeft rounded-lg overflow-hidden"
+                    src="https://www.youtube.com/embed/nyuL-eI3GrA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+               <div class="flex flex-col sm:p-8 md:p-2 lg:p-14 overflow-auto">
+                    <h1 id="titleVideoModal" class="text-white font-bold text-2xl md:text-4xl mb-1">SMART METER</h1>
+                    <h2 id="categoryVideoModal" class="text-white font-medium text-xs md:text-sm mb-4">Commercial</h2>
+                    <p id="descriptionVideoModal" class="text-white text-sm md:text-base mb-12">
+                         Aqualectra commissioned a promotional video for their Smart Meter project, which they had begun
+                         installing for commercial use after running trials the previous year. The smart meter is a huge
+                         leap forward in Curaçao's Digital Revolution, allowing customers to check their utility costs
+                         and pay for them online. Since the meter's data feed refreshes hourly, Aqualectra technicians
+                         can also notice spikes in water and electricity usage, which will go a long way in preventing
+                         leaks or illegal tapping.
+                         Aqualectra commissioned a promotional video for their Smart Meter project, which they had begun
+                         installing for commercial use after running trials the previous year. The smart meter is a huge
+                         leap forward in Curaçao's Digital Revolution, allowing customers to check their utility costs
+                         and pay for them online. Since the meter's data feed refreshes hourly, Aqualectra technicians
+                         can also notice spikes in water and electricity usage, which will go a long way in preventing
+                         leaks or illegal tapping.
+                         Aqualectra commissioned a promotional video for their Smart Meter project, which they had begun
+                         installing for commercial use after running trials the previous year. The smart meter is a huge
+                         leap forward in Curaçao's Digital Revolution, allowing customers to check their utility costs
+                         and pay for them online. Since the meter's data feed refreshes hourly, Aqualectra technicians
+                         can also notice spikes in water and electricity usage, which will go a long way in preventing
+                         leaks or illegal tapping.
+                         Aqualectra commissioned a promotional video for their Smart Meter project, which they had begun
+                         installing for commercial use after running trials the previous year. The smart meter is a huge
+                         leap forward in Curaçao's Digital Revolution, allowing customers to check their utility costs
+                         and pay for them online. Since the meter's data feed refreshes hourly, Aqualectra technicians
+                         can also notice spikes in water and electricity usage, which will go a long way in preventing
+                         leaks or illegal tapping.
+                    </p>
+                    <!-- <button id="buttonBackToProjects"
+                         class="w-fit bg-light p-2 rounded-sm font-medium hover:bg-slateGray hover:text-light">
+                         Back to projects
+                    </button> -->
+               </div>
+          </div>
+     </div>
+
+     <!-- modal image -->
+     <div id="modalImage"
+          class="fixed w-full h-full -top-full left-0 z-400 bg-[rgba(0,0,0,0.8)] flex justify-center items-center">
+          <button id="buttonCloseModalPicture"
+               class="flex justify-center items-center absolute right-4 top-4 p-2 bg-light rounded-full z-[200]">
+               <svg class="h-full w-full" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.3041 15L29.5207 3.78293C29.8293 3.47415 29.9995 3.0622 30 2.62293C30 2.18342 29.8298 1.77098 29.5207 1.46268L28.5378 0.480001C28.2288 0.170489 27.8168 0.000976562 27.3771 0.000976562C26.938 0.000976562 26.5261 0.170489 26.2171 0.480001L15.0005 11.6963L3.78341 0.480001C3.47488 0.170489 3.06268 0.000976562 2.62317 0.000976562C2.18415 0.000976562 1.77195 0.170489 1.46341 0.480001L0.48 1.46268C-0.16 2.10268 -0.16 3.14366 0.48 3.78293L11.6968 15L0.48 26.2166C0.17122 26.5259 0.00121951 26.9378 0.00121951 27.3771C0.00121951 27.8163 0.17122 28.2283 0.48 28.5373L1.46317 29.52C1.77171 29.8293 2.18415 29.999 2.62293 29.999C3.06244 29.999 3.47463 29.8293 3.78317 29.52L15.0002 18.3034L26.2168 29.52C26.5259 29.8293 26.9378 29.999 27.3768 29.999H27.3773C27.8166 29.999 28.2285 29.8293 28.5376 29.52L29.5205 28.5373C29.829 28.2285 29.9993 27.8163 29.9993 27.3771C29.9993 26.9378 29.829 26.5259 29.5205 26.2168L18.3041 15Z"
+                         fill="#434343" />
+               </svg>
+          </button>
+
+          <button id="previousImage" class="absolute left-6 w-10 h-10 sm:w-20 sm:h-20 opacity-80 z-[200]">
+               <svg class="w-full h-full" width="252" height="252" viewBox="0 0 252 252" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M126 0C92.5827 0 60.5341 13.275 36.9045 36.9045C13.275 60.5341 0 92.5827 0 126C0 159.417 13.275 191.466 36.9045 215.095C60.5341 238.725 92.5827 252 126 252C159.417 252 191.466 238.725 215.095 215.095C238.725 191.466 252 159.417 252 126C252 92.5827 238.725 60.5341 215.095 36.9045C191.466 13.275 159.417 0 126 0V0ZM181.125 118.125C183.214 118.125 185.217 118.955 186.693 120.432C188.17 121.908 189 123.911 189 126C189 128.089 188.17 130.092 186.693 131.568C185.217 133.045 183.214 133.875 181.125 133.875H89.8852L123.701 167.674C124.433 168.407 125.013 169.276 125.41 170.233C125.806 171.189 126.01 172.215 126.01 173.25C126.01 174.285 125.806 175.311 125.41 176.267C125.013 177.224 124.433 178.093 123.701 178.826C122.968 179.558 122.099 180.138 121.142 180.535C120.186 180.931 119.16 181.135 118.125 181.135C117.09 181.135 116.064 180.931 115.108 180.535C114.151 180.138 113.282 179.558 112.549 178.826L65.2995 131.576C64.5661 130.844 63.9843 129.975 63.5873 129.018C63.1903 128.061 62.9859 127.036 62.9859 126C62.9859 124.964 63.1903 123.939 63.5873 122.982C63.9843 122.025 64.5661 121.156 65.2995 120.424L112.549 73.1745C114.028 71.6958 116.034 70.865 118.125 70.865C120.216 70.865 122.222 71.6958 123.701 73.1745C125.179 74.6532 126.01 76.6588 126.01 78.75C126.01 80.8412 125.179 82.8468 123.701 84.3255L89.8852 118.125H181.125Z"
+                         fill="white" />
+               </svg>
+          </button>
+
+          <button id="nextImage" class="absolute right-6 w-10 h-10 sm:w-20 sm:h-20 opacity-80 z-[200]">
+               <svg class="w-full h-full" width="252" height="252" viewBox="0 0 252 252" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M126 252C159.417 252 191.466 238.725 215.095 215.095C238.725 191.466 252 159.417 252 126C252 92.5827 238.725 60.5341 215.095 36.9045C191.466 13.275 159.417 0 126 0C92.5827 0 60.5341 13.275 36.9045 36.9045C13.275 60.5341 0 92.5827 0 126C0 159.417 13.275 191.466 36.9045 215.095C60.5341 238.725 92.5827 252 126 252V252ZM70.875 133.875C68.7864 133.875 66.7834 133.045 65.3065 131.568C63.8297 130.092 63 128.089 63 126C63 123.911 63.8297 121.908 65.3065 120.432C66.7834 118.955 68.7864 118.125 70.875 118.125L162.115 118.125L128.299 84.3255C127.567 83.5933 126.987 82.7241 126.59 81.7674C126.194 80.8108 125.99 79.7855 125.99 78.75C125.99 77.7145 126.194 76.6892 126.59 75.7326C126.987 74.7759 127.567 73.9067 128.299 73.1745C129.032 72.4423 129.901 71.8615 130.858 71.4653C131.814 71.069 132.84 70.8651 133.875 70.8651C134.91 70.8651 135.936 71.069 136.892 71.4653C137.849 71.8615 138.718 72.4423 139.451 73.1745L186.701 120.424C187.434 121.156 188.016 122.025 188.413 122.982C188.81 123.939 189.014 124.964 189.014 126C189.014 127.036 188.81 128.061 188.413 129.018C188.016 129.975 187.434 130.844 186.701 131.576L139.451 178.826C137.972 180.304 135.966 181.135 133.875 181.135C131.784 181.135 129.778 180.304 128.299 178.826C126.821 177.347 125.99 175.341 125.99 173.25C125.99 171.159 126.821 169.153 128.299 167.674L162.115 133.875L70.875 133.875Z"
+                         fill="white" />
+               </svg>
+          </button>
+
+          <div class="w-11/12 h-full p-1 md:p-20 ">
+               <div class="w-full h-full relative">
+                    <img id="imageSelected" class="w-full h-full object-contain"
+                         src="https://www.mauriciapictures.com/wp-content/uploads/2022/09/LAB-Shoot-115-scaled.jpg"
+                         alt="image-selected">
+                    <div
+                         class="absolute w-full bottom-0 left-0 md:left-[15%] bg-[rgba(0,0,0,0.4)] px-20 py-6 max-w-screen-md">
+                         <p id="titleImageModal" class="text-[rgba(255,255,255,0.5)] text-sm">test</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- footer -->
+     <div class="flex justify-center items-center w-full h-full bg-light pt-10">
+          <div
+               class="grid grid-cols-1 md:grid-cols-footerLayout w-11/12 max-w-screen-2xl py-16 shadow-shadowFooter rounded-t-xl bg-footerBG bg-bottom bg-no-repeat bg-contain">
+               <div class="w-full h-full flex justify-center items-center mb-10">
+                    <svg class="w-44 h-44" width="160" height="184" viewBox="0 0 284 257" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M34 202.275V14.9547L60.7601 41.9907V202.275H34Z" fill="#333333" />
+                         <path d="M72.2275 202.275V53.1834L98.9876 77.9729V202.275H72.2275Z" fill="#333333" />
+                         <path d="M175.447 202.275V64.652L148.687 86.1283V202.275H175.447Z" fill="#333333" />
+                         <path d="M213.674 202.275V30.2459L186.914 54.0765V202.275H213.674Z" fill="#333333" />
+                         <path d="M251.903 202.275V4.02067e-05L225.143 22.6003V202.275H251.903Z" fill="#333333" />
+                         <path d="M110.458 202.275V87.5891L137.218 114.349V202.275H110.458Z" fill="#333333" />
+                         <path d="M82.0851 230V216.66H78.0851L74.8451 224.72L71.6051 216.66H67.6251V230H70.4651V220.66L74.2251 230H75.4651L79.2251 220.66V230H82.0851ZM105.174 230L100.034 216.66H96.4745L91.3145 230H94.5545L95.3945 227.74H101.114L101.934 230H105.174ZM100.334 225.24H96.1745L98.2545 219.5L100.334 225.24ZM119.762 230.24C123.822 230.24 125.782 227.98 125.782 224.66V216.66H122.882V224.58C122.882 226.44 121.822 227.72 119.762 227.72C117.702 227.72 116.622 226.44 116.622 224.58V216.66H113.742V224.68C113.742 227.96 115.702 230.24 119.762 230.24ZM147.21 230L144.21 224.92C145.65 224.58 147.13 223.32 147.13 220.96C147.13 218.48 145.43 216.66 142.65 216.66H136.41V230H139.25V225.26H141.33L143.95 230H147.21ZM142.23 222.76H139.25V219.16H142.23C143.37 219.16 144.23 219.84 144.23 220.96C144.23 222.08 143.37 222.76 142.23 222.76ZM160.102 230V216.66H157.262V230H160.102ZM177.21 230.24C180.15 230.24 181.83 228.62 182.79 226.96L180.35 225.78C179.79 226.88 178.59 227.72 177.21 227.72C174.79 227.72 173.03 225.86 173.03 223.34C173.03 220.82 174.79 218.96 177.21 218.96C178.59 218.96 179.79 219.82 180.35 220.9L182.79 219.7C181.85 218.04 180.15 216.44 177.21 216.44C173.21 216.44 170.11 219.24 170.11 223.34C170.11 227.44 173.21 230.24 177.21 230.24ZM195.321 230V216.66H192.481V230H195.321ZM218.409 230L213.269 216.66H209.709L204.549 230H207.789L208.629 227.74H214.349L215.169 230H218.409ZM213.569 225.24H209.409L211.489 219.5L213.569 225.24Z"
+                              fill="#333333" />
+                         <path d="M34.8261 256V252.919H37.0361C38.9081 252.919 39.9481 251.632 39.9481 250.124C39.9481 248.603 38.9211 247.329 37.0361 247.329H32.9801V256H34.8261ZM36.7891 251.294H34.8261V248.954H36.7891C37.5171 248.954 38.0631 249.396 38.0631 250.124C38.0631 250.839 37.5171 251.294 36.7891 251.294ZM44.2384 256V247.329H42.3924V256H44.2384ZM51.4588 256.156C53.3698 256.156 54.4618 255.103 55.0858 254.024L53.4998 253.257C53.1358 253.972 52.3558 254.518 51.4588 254.518C49.8858 254.518 48.7418 253.309 48.7418 251.671C48.7418 250.033 49.8858 248.824 51.4588 248.824C52.3558 248.824 53.1358 249.383 53.4998 250.085L55.0858 249.305C54.4748 248.226 53.3698 247.186 51.4588 247.186C48.8588 247.186 46.8438 249.006 46.8438 251.671C46.8438 254.336 48.8588 256.156 51.4588 256.156ZM61.3456 256V248.954H63.8676V247.329H56.9516V248.954H59.4866V256H61.3456ZM70.264 256.156C72.903 256.156 74.177 254.687 74.177 252.529V247.329H72.292V252.477C72.292 253.686 71.603 254.518 70.264 254.518C68.925 254.518 68.223 253.686 68.223 252.477V247.329H66.351V252.542C66.351 254.674 67.625 256.156 70.264 256.156ZM84.2051 256L82.2551 252.698C83.1911 252.477 84.1531 251.658 84.1531 250.124C84.1531 248.512 83.0481 247.329 81.2411 247.329H77.1851V256H79.0311V252.919H80.3831L82.0861 256H84.2051ZM80.9681 251.294H79.0311V248.954H80.9681C81.7091 248.954 82.2681 249.396 82.2681 250.124C82.2681 250.852 81.7091 251.294 80.9681 251.294ZM92.9747 256V254.375H88.6847V252.412H92.8837V250.787H88.6847V248.954H92.9747V247.329H86.8387V256H92.9747ZM98.7988 256.156C101.139 256.156 102.27 254.96 102.27 253.374C102.27 250.137 97.2908 251.06 97.2908 249.682C97.2908 249.162 97.7328 248.811 98.5258 248.811C99.4098 248.811 100.346 249.11 101.048 249.76L102.075 248.408C101.217 247.615 100.073 247.199 98.6948 247.199C96.6538 247.199 95.4058 248.395 95.4058 249.838C95.4058 253.101 100.398 252.048 100.398 253.582C100.398 254.076 99.9038 254.544 98.8898 254.544C97.6938 254.544 96.7448 254.011 96.1338 253.374L95.1328 254.778C95.9388 255.597 97.1348 256.156 98.7988 256.156ZM111.285 256V247.329H109.439V256H111.285ZM120.778 256V252.919H122.988C124.86 252.919 125.9 251.632 125.9 250.124C125.9 248.603 124.873 247.329 122.988 247.329H118.932V256H120.778ZM122.741 251.294H120.778V248.954H122.741C123.469 248.954 124.015 249.396 124.015 250.124C124.015 250.839 123.469 251.294 122.741 251.294ZM135.365 256L133.415 252.698C134.351 252.477 135.313 251.658 135.313 250.124C135.313 248.512 134.208 247.329 132.401 247.329H128.345V256H130.191V252.919H131.543L133.246 256H135.365ZM132.128 251.294H130.191V248.954H132.128C132.869 248.954 133.428 249.396 133.428 250.124C133.428 250.852 132.869 251.294 132.128 251.294ZM142.106 256.156C144.732 256.156 146.643 254.284 146.643 251.671C146.643 249.058 144.732 247.186 142.106 247.186C139.493 247.186 137.582 249.058 137.582 251.671C137.582 254.284 139.493 256.156 142.106 256.156ZM142.106 254.518C140.507 254.518 139.48 253.283 139.48 251.671C139.48 250.046 140.507 248.824 142.106 248.824C143.705 248.824 144.745 250.046 144.745 251.671C144.745 253.283 143.705 254.518 142.106 254.518ZM152.658 256C155.375 256 157.26 254.284 157.26 251.671C157.26 249.058 155.375 247.329 152.658 247.329H149.239V256H152.658ZM152.658 254.375H151.085V248.954H152.658C154.439 248.954 155.375 250.137 155.375 251.671C155.375 253.14 154.374 254.375 152.658 254.375ZM163.783 256.156C166.422 256.156 167.696 254.687 167.696 252.529V247.329H165.811V252.477C165.811 253.686 165.122 254.518 163.783 254.518C162.444 254.518 161.742 253.686 161.742 252.477V247.329H159.87V252.542C159.87 254.674 161.144 256.156 163.783 256.156ZM174.903 256.156C176.814 256.156 177.906 255.103 178.53 254.024L176.944 253.257C176.58 253.972 175.8 254.518 174.903 254.518C173.33 254.518 172.186 253.309 172.186 251.671C172.186 250.033 173.33 248.824 174.903 248.824C175.8 248.824 176.58 249.383 176.944 250.085L178.53 249.305C177.919 248.226 176.814 247.186 174.903 247.186C172.303 247.186 170.288 249.006 170.288 251.671C170.288 254.336 172.303 256.156 174.903 256.156ZM184.79 256V248.954H187.312V247.329H180.396V248.954H182.931V256H184.79ZM191.641 256V247.329H189.795V256H191.641ZM198.77 256.156C201.396 256.156 203.307 254.284 203.307 251.671C203.307 249.058 201.396 247.186 198.77 247.186C196.157 247.186 194.246 249.058 194.246 251.671C194.246 254.284 196.157 256.156 198.77 256.156ZM198.77 254.518C197.171 254.518 196.144 253.283 196.144 251.671C196.144 250.046 197.171 248.824 198.77 248.824C200.369 248.824 201.409 250.046 201.409 251.671C201.409 253.283 200.369 254.518 198.77 254.518ZM213.664 256V247.329H211.818V252.776L207.801 247.329H205.903V256H207.749V250.345L211.883 256H213.664ZM219.755 256.156C222.095 256.156 223.226 254.96 223.226 253.374C223.226 250.137 218.247 251.06 218.247 249.682C218.247 249.162 218.689 248.811 219.482 248.811C220.366 248.811 221.302 249.11 222.004 249.76L223.031 248.408C222.173 247.615 221.029 247.199 219.651 247.199C217.61 247.199 216.362 248.395 216.362 249.838C216.362 253.101 221.354 252.048 221.354 253.582C221.354 254.076 220.86 254.544 219.846 254.544C218.65 254.544 217.701 254.011 217.09 253.374L216.089 254.778C216.895 255.597 218.091 256.156 219.755 256.156ZM235.101 256C236.752 256 237.623 254.96 237.623 253.66C237.623 252.568 236.882 251.671 235.959 251.528C236.778 251.359 237.454 250.631 237.454 249.539C237.454 248.382 236.609 247.329 234.958 247.329H230.395V256H235.101ZM234.555 250.8H232.241V248.915H234.555C235.179 248.915 235.569 249.318 235.569 249.864C235.569 250.41 235.179 250.8 234.555 250.8ZM234.62 254.401H232.241V252.386H234.62C235.348 252.386 235.738 252.854 235.738 253.4C235.738 254.024 235.322 254.401 234.62 254.401ZM241.121 256.143C241.693 256.143 242.174 255.662 242.174 255.09C242.174 254.518 241.693 254.037 241.121 254.037C240.549 254.037 240.068 254.518 240.068 255.09C240.068 255.662 240.549 256.143 241.121 256.143ZM248.594 256L251.935 247.329H249.829L247.437 253.998L245.032 247.329H242.926L246.28 256H248.594Z"
+                              fill="#333333" />
+                    </svg>
+               </div>
+               <div class="grid p-10 sm:p-20 md:p-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-footerContent gap-10">
+                         <div class="flex flex-col mb-3">
+                              <h2 class="text-2xl font-bold mb-5">MAURICIA PICTURES PRODUCTIONS B.V.
+                              </h2>
+                              <div class="flex items-center mb-3">
+                                   <div class="w-10 h-10 flex justify-center p-2">
+                                        <svg class="w-full h-full" width="15" height="20" viewBox="0 0 15 20"
+                                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M7.24325 0C3.2493 0 0 3.2493 0 7.24321C0 12.1998 6.482 19.4763 6.75798 19.7837C7.0172 20.0724 7.46977 20.0719 7.72852 19.7837C8.0045 19.4763 14.4865 12.1998 14.4865 7.24321C14.4864 3.2493 11.2372 0 7.24325 0ZM7.24325 10.8875C5.2338 10.8875 3.59903 9.25267 3.59903 7.24321C3.59903 5.23376 5.23383 3.59899 7.24325 3.59899C9.25267 3.59899 10.8874 5.2338 10.8874 7.24325C10.8874 9.25271 9.25267 10.8875 7.24325 10.8875Z"
+                                                  fill="black" />
+                                        </svg>
+                                   </div>
+                                   <p class="text-sm">Saliña galleries unit a 205 Willemstad, Curaçao</p>
+                              </div>
+                              <div class="flex items-center">
+                                   <div class="w-10 h-10 flex justify-center  p-2">
+                                        <svg class="w-full h-full" width="21" height="20" viewBox="0 0 21 20"
+                                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M19.6778 14.678L16.8867 11.8869C15.8899 10.8901 14.1954 11.2889 13.7966 12.5847C13.4976 13.4818 12.5008 13.9802 11.6037 13.7808C9.61006 13.2824 6.91868 10.6907 6.42028 8.59745C6.12124 7.70029 6.71932 6.70348 7.61644 6.40448C8.91229 6.00576 9.31101 4.31119 8.31421 3.31438L5.52315 0.523323C4.72571 -0.174441 3.52954 -0.174441 2.83178 0.523323L0.937845 2.41725C-0.956086 4.41087 1.13721 9.69394 5.82219 14.3789C10.5072 19.0639 15.7903 21.2569 17.7839 19.2633L19.6778 17.3693C20.3756 16.5719 20.3756 15.3757 19.6778 14.678Z"
+                                                  fill="black" />
+                                        </svg>
+                                   </div>
+                                   <p class="text-sm">
+                                        +599 9 676-5848 | +599 9 788-5848</p>
+                              </div>
+                         </div>
+                         <div class="flex flex-col mb-3 gap-2">
+                              <h2 class="text-2xl font-bold mb-5 uppercase">Links</h2>
+                              <a class="w-fit text-sm font-medium link-line-after link-line-slateGray"
+                                   href="https://mauriciapictures.com/home/">Home</a>
+                              <a class="w-fit text-sm font-medium link-line-after link-line-slateGray"
+                                   href="https://mauriciapictures.com/about-us/">About us</a>
+                              <a class="w-fit text-sm font-medium link-line-after link-line-slateGray"
+                                   href="https://mauriciapictures.com/work/">Our Work</a>
+                              <a class="w-fit text-sm font-medium link-line-after link-line-slateGray"
+                                   href="https://mauriciapictures.com/work/">Contact Us</a>
+                         </div>
+                         <div class="flex lg:flex-col">
+                              <a class="flex justify-center items-center w-12 h-12 bg-darkTransparent mr-5 lg:mb-5 p-3 rounded hover:bg-sky-700"
+                                   href="https://www.facebook.com/mauriciapicturesproductions/" target="_blank">
+                                   <svg class="w-full h-full" width="13" height="25" viewBox="0 0 13 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fillSocialNetwork"
+                                             d="M9.3125 4.7594H12.5344V0H8.74697V0.0171644C4.15783 0.179702 3.21727 2.75936 3.13438 5.46877H3.12494V7.84538H0V12.5063H3.12494V25H7.83439V12.5063H11.6922L12.4374 7.84538H7.83594V6.40949C7.83594 5.49383 8.44524 4.7594 9.3125 4.7594Z"
+                                             fill="white" />
+                                   </svg>
+                              </a>
+                              <a class="flex justify-center items-center w-12 h-12 bg-darkTransparent mr-5 lg:mb-5 p-3 rounded hover:bg-pink-700"
+                                   href="https://www.instagram.com/mauriciapictures/" target="_blank">
+                                   <svg class="w-full h-full" width="26" height="25" viewBox="0 0 26 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fillSocialNetwork"
+                                             d="M20.8268 0H5.49006C2.82539 0 0.65918 2.16758 0.65918 4.83088V20.1691C0.65918 22.8338 2.82676 25 5.49006 25H20.8283C23.493 25 25.6592 22.8324 25.6592 20.1691V4.83088C25.659 2.16758 23.4914 0 20.8268 0ZM22.3487 2.79523L22.8958 2.79386V6.94294L18.7162 6.95682L18.7024 2.80774L22.3487 2.79523ZM13.1592 8.31752C16.6265 8.31752 17.3415 11.5723 17.3415 12.5012C17.3415 14.8049 15.4642 16.6822 13.1592 16.6822C10.8528 16.6822 8.97685 14.8049 8.97685 12.5012C8.97533 11.5723 9.69191 8.31752 13.1592 8.31752ZM22.9195 19.8664C22.9195 21.1869 21.8461 22.2617 20.5228 22.2617H5.74829C4.42632 22.2617 3.35161 21.1883 3.35161 19.8664V9.71727H6.823C6.50086 10.5101 6.3189 11.5932 6.3189 12.5014C6.3189 16.27 9.38487 19.3374 13.1549 19.3374C16.925 19.3374 19.9894 16.27 19.9894 12.5014C19.9894 11.5932 19.8074 10.5101 19.4867 9.71727H22.9164V19.8664H22.9195Z"
+                                             fill="white" />
+                                   </svg>
+                              </a>
+                              <a class="flex justify-center items-center w-12 h-12 bg-darkTransparent p-3 rounded hover:bg-red-700"
+                                   href="https://www.youtube.com/channel/UCAXXIMw1lIOJvZayDWyWMwg" target="_blank">
+                                   <svg class="w-full h-full" width="40" height="28" viewBox="0 0 40 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fillSocialNetwork"
+                                             d="M39.1759 4.38133C38.7149 2.6681 37.3638 1.31757 35.6505 0.856251C32.5203 0 19.9995 0 19.9995 0C19.9995 0 7.47926 0 4.34913 0.823788C2.66871 1.28462 1.28467 2.66834 0.823732 4.38133C0 7.5105 0 14 0 14C0 14 0 20.5222 0.823732 23.6187C1.28516 25.3317 2.63575 26.6822 4.34937 27.1435C7.51222 28 20 28 20 28C20 28 32.5203 28 35.6505 27.1762C37.3641 26.7151 38.7149 25.3646 39.1763 23.6516C39.9998 20.5222 39.9998 14.033 39.9998 14.033C39.9998 14.033 40.0328 7.5105 39.1759 4.38133V4.38133ZM16.0132 19.9952V8.00478L26.4249 14L16.0132 19.9952Z"
+                                             fill="white" />
+                                   </svg>
+                              </a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+     <script type="module" src="/js/ourWork.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .center-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 95%;
+  max-width: 1920px;
+  height: 100%;
+  padding: 2em 0;
+  border-radius: 1em 1em 0px 0px;
+  box-shadow: 0px -4px 50px rgba(0, 0, 0, 0.2);
+  background: white;
+  background: url(https://mauriciapictures.com/wp-content/uploads/2019/12/footer-image.png) no-repeat bottom;
+  background-size: contain;
+}
+@media all and (min-width: 800px) {
+  .footer .center-footer {
+    grid-template-columns: 300px 1fr;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer .center-footer {
+    grid-template-columns: 400px 1fr;
+  }
+}
+.footer .center-footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  padding: 1em;
+}
+.footer .center-footer .footer-logo svg {
+  height: 150px;
+  width: 150px;
+}
+@media all and (min-width: 800px) {
+  .footer .center-footer .footer-logo svg {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer .center-footer .footer-logo svg {
+    height: 250px;
+    width: 250px;
+  }
+}
+.footer .center-footer .footer-content {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+@media all and (min-width: 1400px) {
+  .footer .center-footer .footer-content {
+    padding: 3em;
+  }
+}
+.footer .center-footer .footer-content .center-items-footer {
+  width: 95%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  column-gap: 2em;
+  max-width: 500px;
+}
+@media all and (min-width: 1080px) {
+  .footer .center-footer .footer-content .center-items-footer {
+    grid-template-columns: 2fr 1fr 1fr;
+    max-width: initial;
+  }
+}
+.footer .center-footer .footer-content .center-items-footer .footer-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.footer .center-footer .footer-content .center-items-footer .social-networks {
+  display: flex;
+}
+.footer .center-footer .footer-content .center-items-footer .social-networks .link-social-footer {
+  background: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.footer .center-footer .footer-content .center-items-footer .social-networks .link-social-footer:not(:first-child) {
+  margin-left: 1em;
+}
+@media all and (min-width: 1400px) {
+  .footer .center-footer .footer-content .center-items-footer .social-networks {
+    flex-direction: column;
+  }
+  .footer .center-footer .footer-content .center-items-footer .social-networks .link-social-footer:not(:first-child) {
+    margin-left: 0em;
+    margin-top: 1em;
+  }
+}

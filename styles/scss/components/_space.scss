@@ -1,0 +1,44 @@
+
+// margin y padding
+
+@for $i from 1 to 6 {
+     .m-#{$i} {
+         margin: #{$i}em;
+     }
+ 
+     .mt-#{$i} {
+         margin-top: #{$i}rem;
+     }
+ 
+     .mr-#{$i} {
+         margin-right: #{$i}rem;
+     }
+ 
+     .mb-#{$i} {
+         margin-bottom: #{$i}rem;
+     }
+ 
+     .ml-#{$i} {
+         margin-left: #{$i}rem;
+     }
+ 
+     .p-#{$i} {
+         padding: #{$i}em;
+     }
+ 
+     .pt-#{$i} {
+         padding-top: #{$i}rem;
+     }
+ 
+     .pr-#{$i} {
+         padding-right: #{$i}rem;
+     }
+ 
+     .pb-#{$i} {
+         padding-bottom: #{$i}rem;
+     }
+ 
+     .pl-#{$i} {
+         padding-left: #{$i}rem;
+     }
+ }

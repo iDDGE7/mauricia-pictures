@@ -1,0 +1,39 @@
+.bc-slateGray {
+  background: var(--slateGray);
+}
+
+.bc-indigo {
+  background: var(--indigo);
+}
+
+.bc-dark {
+  background: var(--dark);
+}
+
+.bc-light {
+  background: var(--light);
+}
+
+.bc-lightSilver {
+  background: var(--lightSilver);
+}
+
+.bc-burlywood {
+  background: var(--burlywood);
+}
+
+.bc-crimson {
+  background: var(--crimson);
+}
+
+.accent-color-bar-crimson:after {
+  background: var(--crimson);
+}
+
+.accent-color-bar-burlywood:after {
+  background: var(--burlywood);
+}
+
+.accent-color-bar-maximumGreen:after {
+  background: var(--maximumGreen);
+}

@@ -1,0 +1,22 @@
+.background-color-about-us {
+  background: #617a99;
+}
+
+.background-info-about-us {
+  background: white;
+}
+.background-info-about-us:after {
+  background-color: #E31634;
+}
+
+.title-color-about-us {
+  color: #212121;
+}
+
+.description-color-about-us {
+  color: #212121;
+}
+
+.color-button-about-us {
+  color: #212121;
+}

@@ -1,0 +1,2266 @@
+.upper {
+  text-transform: uppercase !important;
+}
+
+.lower {
+  text-transform: lowercase !important;
+}
+
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-justify {
+  text-align: justify;
+}
+
+.cl-slateGray {
+  color: var(--slateGray);
+}
+
+.cl-indigo {
+  color: var(--indigo);
+}
+
+.cl-dark {
+  color: var(--dark);
+}
+
+.cl-light {
+  color: var(--light);
+}
+
+.cl-lightSilver {
+  color: var(--lightSilver);
+}
+
+.cl-burlywood {
+  color: var(--burlywood);
+}
+
+.cl-crimson {
+  color: var(--crimson);
+}
+
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.mx-wd-100 {
+  max-width: 100px;
+}
+
+.mx-wd-200 {
+  max-width: 200px;
+}
+
+.mx-wd-300 {
+  max-width: 300px;
+}
+
+.mx-wd-400 {
+  max-width: 400px;
+}
+
+.mx-wd-500 {
+  max-width: 500px;
+}
+
+.mx-wd-600 {
+  max-width: 600px;
+}
+
+.mx-wd-700 {
+  max-width: 700px;
+}
+
+.mx-wd-800 {
+  max-width: 800px;
+}
+
+.mx-wd-900 {
+  max-width: 900px;
+}
+
+.mx-wd-1000 {
+  max-width: 1000px;
+}
+
+.mx-wd-1100 {
+  max-width: 1100px;
+}
+
+.mx-wd-1200 {
+  max-width: 1200px;
+}
+
+.mx-wd-1300 {
+  max-width: 1300px;
+}
+
+.mx-wd-1400 {
+  max-width: 1400px;
+}
+
+@media all and (min-width: 2048px) {
+  .mx-wd-xl-100 {
+    max-width: 100px;
+  }
+
+  .mx-wd-xl-200 {
+    max-width: 200px;
+  }
+
+  .mx-wd-xl-300 {
+    max-width: 300px;
+  }
+
+  .mx-wd-xl-400 {
+    max-width: 400px;
+  }
+
+  .mx-wd-xl-500 {
+    max-width: 500px;
+  }
+
+  .mx-wd-xl-600 {
+    max-width: 600px;
+  }
+
+  .mx-wd-xl-700 {
+    max-width: 700px;
+  }
+
+  .mx-wd-xl-800 {
+    max-width: 800px;
+  }
+
+  .mx-wd-xl-900 {
+    max-width: 900px;
+  }
+
+  .mx-wd-xl-1000 {
+    max-width: 1000px;
+  }
+
+  .mx-wd-xl-1100 {
+    max-width: 1100px;
+  }
+
+  .mx-wd-xl-1200 {
+    max-width: 1200px;
+  }
+
+  .mx-wd-xl-1300 {
+    max-width: 1300px;
+  }
+
+  .mx-wd-xl-1400 {
+    max-width: 1400px;
+  }
+}
+.fs-title {
+  font-size: 2.5em;
+}
+@media all and (min-width: 400px) {
+  .fs-title {
+    font-size: 2.5em;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-title {
+    font-size: 3em;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-title {
+    font-size: 3.5em;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-title {
+    font-size: 4.5em;
+  }
+}
+@media all and (min-width: 2048px) {
+  .fs-title {
+    font-size: 6em;
+  }
+}
+
+.fs-description {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+@media all and (min-width: 400px) {
+  .fs-description {
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-description {
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-description {
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-description {
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 2048px) {
+  .fs-description {
+    font-size: 2em;
+    max-width: 800px;
+  }
+}
+
+.fs-0-1 {
+  font-size: 0.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-1 {
+    font-size: 0.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-1 {
+    font-size: 0.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-1 {
+    font-size: 0.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-1 {
+    font-size: 0.1em;
+    line-height: normal;
+  }
+}
+.fs-0-2 {
+  font-size: 0.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-2 {
+    font-size: 0.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-2 {
+    font-size: 0.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-2 {
+    font-size: 0.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-2 {
+    font-size: 0.2em;
+    line-height: normal;
+  }
+}
+.fs-0-3 {
+  font-size: 0.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-3 {
+    font-size: 0.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-3 {
+    font-size: 0.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-3 {
+    font-size: 0.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-3 {
+    font-size: 0.3em;
+    line-height: normal;
+  }
+}
+.fs-0-4 {
+  font-size: 0.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-4 {
+    font-size: 0.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-4 {
+    font-size: 0.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-4 {
+    font-size: 0.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-4 {
+    font-size: 0.4em;
+    line-height: normal;
+  }
+}
+.fs-0-5 {
+  font-size: 0.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-5 {
+    font-size: 0.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-5 {
+    font-size: 0.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-5 {
+    font-size: 0.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-5 {
+    font-size: 0.5em;
+    line-height: normal;
+  }
+}
+.fs-0-6 {
+  font-size: 0.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-6 {
+    font-size: 0.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-6 {
+    font-size: 0.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-6 {
+    font-size: 0.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-6 {
+    font-size: 0.6em;
+    line-height: normal;
+  }
+}
+.fs-0-7 {
+  font-size: 0.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-7 {
+    font-size: 0.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-7 {
+    font-size: 0.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-7 {
+    font-size: 0.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-7 {
+    font-size: 0.7em;
+    line-height: normal;
+  }
+}
+.fs-0-8 {
+  font-size: 0.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-8 {
+    font-size: 0.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-8 {
+    font-size: 0.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-8 {
+    font-size: 0.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-8 {
+    font-size: 0.8em;
+    line-height: normal;
+  }
+}
+.fs-0-9 {
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-0-9 {
+    font-size: 0.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-0-9 {
+    font-size: 0.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-0-9 {
+    font-size: 0.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-0-9 {
+    font-size: 0.9em;
+    line-height: normal;
+  }
+}
+.fs-1-0 {
+  font-size: 1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-0 {
+    font-size: 1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-0 {
+    font-size: 1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-0 {
+    font-size: 1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-0 {
+    font-size: 1em;
+    line-height: normal;
+  }
+}
+.fs-1-1 {
+  font-size: 1.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-1 {
+    font-size: 1.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-1 {
+    font-size: 1.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-1 {
+    font-size: 1.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-1 {
+    font-size: 1.1em;
+    line-height: normal;
+  }
+}
+.fs-1-2 {
+  font-size: 1.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-2 {
+    font-size: 1.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-2 {
+    font-size: 1.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-2 {
+    font-size: 1.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-2 {
+    font-size: 1.2em;
+    line-height: normal;
+  }
+}
+.fs-1-3 {
+  font-size: 1.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-3 {
+    font-size: 1.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-3 {
+    font-size: 1.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-3 {
+    font-size: 1.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-3 {
+    font-size: 1.3em;
+    line-height: normal;
+  }
+}
+.fs-1-4 {
+  font-size: 1.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-4 {
+    font-size: 1.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-4 {
+    font-size: 1.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-4 {
+    font-size: 1.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-4 {
+    font-size: 1.4em;
+    line-height: normal;
+  }
+}
+.fs-1-5 {
+  font-size: 1.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-5 {
+    font-size: 1.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-5 {
+    font-size: 1.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-5 {
+    font-size: 1.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-5 {
+    font-size: 1.5em;
+    line-height: normal;
+  }
+}
+.fs-1-6 {
+  font-size: 1.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-6 {
+    font-size: 1.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-6 {
+    font-size: 1.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-6 {
+    font-size: 1.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-6 {
+    font-size: 1.6em;
+    line-height: normal;
+  }
+}
+.fs-1-7 {
+  font-size: 1.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-7 {
+    font-size: 1.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-7 {
+    font-size: 1.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-7 {
+    font-size: 1.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-7 {
+    font-size: 1.7em;
+    line-height: normal;
+  }
+}
+.fs-1-8 {
+  font-size: 1.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-8 {
+    font-size: 1.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-8 {
+    font-size: 1.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-8 {
+    font-size: 1.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-8 {
+    font-size: 1.8em;
+    line-height: normal;
+  }
+}
+.fs-1-9 {
+  font-size: 1.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-1-9 {
+    font-size: 1.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-1-9 {
+    font-size: 1.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-1-9 {
+    font-size: 1.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-1-9 {
+    font-size: 1.9em;
+    line-height: normal;
+  }
+}
+.fs-2-0 {
+  font-size: 2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-0 {
+    font-size: 2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-0 {
+    font-size: 2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-0 {
+    font-size: 2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-0 {
+    font-size: 2em;
+    line-height: normal;
+  }
+}
+.fs-2-1 {
+  font-size: 2.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-1 {
+    font-size: 2.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-1 {
+    font-size: 2.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-1 {
+    font-size: 2.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-1 {
+    font-size: 2.1em;
+    line-height: normal;
+  }
+}
+.fs-2-2 {
+  font-size: 2.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-2 {
+    font-size: 2.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-2 {
+    font-size: 2.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-2 {
+    font-size: 2.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-2 {
+    font-size: 2.2em;
+    line-height: normal;
+  }
+}
+.fs-2-3 {
+  font-size: 2.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-3 {
+    font-size: 2.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-3 {
+    font-size: 2.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-3 {
+    font-size: 2.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-3 {
+    font-size: 2.3em;
+    line-height: normal;
+  }
+}
+.fs-2-4 {
+  font-size: 2.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-4 {
+    font-size: 2.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-4 {
+    font-size: 2.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-4 {
+    font-size: 2.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-4 {
+    font-size: 2.4em;
+    line-height: normal;
+  }
+}
+.fs-2-5 {
+  font-size: 2.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-5 {
+    font-size: 2.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-5 {
+    font-size: 2.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-5 {
+    font-size: 2.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-5 {
+    font-size: 2.5em;
+    line-height: normal;
+  }
+}
+.fs-2-6 {
+  font-size: 2.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-6 {
+    font-size: 2.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-6 {
+    font-size: 2.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-6 {
+    font-size: 2.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-6 {
+    font-size: 2.6em;
+    line-height: normal;
+  }
+}
+.fs-2-7 {
+  font-size: 2.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-7 {
+    font-size: 2.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-7 {
+    font-size: 2.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-7 {
+    font-size: 2.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-7 {
+    font-size: 2.7em;
+    line-height: normal;
+  }
+}
+.fs-2-8 {
+  font-size: 2.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-8 {
+    font-size: 2.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-8 {
+    font-size: 2.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-8 {
+    font-size: 2.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-8 {
+    font-size: 2.8em;
+    line-height: normal;
+  }
+}
+.fs-2-9 {
+  font-size: 2.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-2-9 {
+    font-size: 2.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-2-9 {
+    font-size: 2.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-2-9 {
+    font-size: 2.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-2-9 {
+    font-size: 2.9em;
+    line-height: normal;
+  }
+}
+.fs-3-0 {
+  font-size: 3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-0 {
+    font-size: 3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-0 {
+    font-size: 3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-0 {
+    font-size: 3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-0 {
+    font-size: 3em;
+    line-height: normal;
+  }
+}
+.fs-3-1 {
+  font-size: 3.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-1 {
+    font-size: 3.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-1 {
+    font-size: 3.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-1 {
+    font-size: 3.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-1 {
+    font-size: 3.1em;
+    line-height: normal;
+  }
+}
+.fs-3-2 {
+  font-size: 3.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-2 {
+    font-size: 3.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-2 {
+    font-size: 3.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-2 {
+    font-size: 3.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-2 {
+    font-size: 3.2em;
+    line-height: normal;
+  }
+}
+.fs-3-3 {
+  font-size: 3.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-3 {
+    font-size: 3.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-3 {
+    font-size: 3.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-3 {
+    font-size: 3.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-3 {
+    font-size: 3.3em;
+    line-height: normal;
+  }
+}
+.fs-3-4 {
+  font-size: 3.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-4 {
+    font-size: 3.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-4 {
+    font-size: 3.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-4 {
+    font-size: 3.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-4 {
+    font-size: 3.4em;
+    line-height: normal;
+  }
+}
+.fs-3-5 {
+  font-size: 3.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-5 {
+    font-size: 3.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-5 {
+    font-size: 3.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-5 {
+    font-size: 3.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-5 {
+    font-size: 3.5em;
+    line-height: normal;
+  }
+}
+.fs-3-6 {
+  font-size: 3.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-6 {
+    font-size: 3.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-6 {
+    font-size: 3.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-6 {
+    font-size: 3.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-6 {
+    font-size: 3.6em;
+    line-height: normal;
+  }
+}
+.fs-3-7 {
+  font-size: 3.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-7 {
+    font-size: 3.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-7 {
+    font-size: 3.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-7 {
+    font-size: 3.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-7 {
+    font-size: 3.7em;
+    line-height: normal;
+  }
+}
+.fs-3-8 {
+  font-size: 3.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-8 {
+    font-size: 3.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-8 {
+    font-size: 3.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-8 {
+    font-size: 3.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-8 {
+    font-size: 3.8em;
+    line-height: normal;
+  }
+}
+.fs-3-9 {
+  font-size: 3.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-3-9 {
+    font-size: 3.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-3-9 {
+    font-size: 3.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-3-9 {
+    font-size: 3.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-3-9 {
+    font-size: 3.9em;
+    line-height: normal;
+  }
+}
+.fs-4-0 {
+  font-size: 4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-0 {
+    font-size: 4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-0 {
+    font-size: 4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-0 {
+    font-size: 4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-0 {
+    font-size: 4em;
+    line-height: normal;
+  }
+}
+.fs-4-1 {
+  font-size: 4.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-1 {
+    font-size: 4.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-1 {
+    font-size: 4.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-1 {
+    font-size: 4.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-1 {
+    font-size: 4.1em;
+    line-height: normal;
+  }
+}
+.fs-4-2 {
+  font-size: 4.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-2 {
+    font-size: 4.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-2 {
+    font-size: 4.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-2 {
+    font-size: 4.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-2 {
+    font-size: 4.2em;
+    line-height: normal;
+  }
+}
+.fs-4-3 {
+  font-size: 4.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-3 {
+    font-size: 4.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-3 {
+    font-size: 4.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-3 {
+    font-size: 4.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-3 {
+    font-size: 4.3em;
+    line-height: normal;
+  }
+}
+.fs-4-4 {
+  font-size: 4.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-4 {
+    font-size: 4.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-4 {
+    font-size: 4.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-4 {
+    font-size: 4.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-4 {
+    font-size: 4.4em;
+    line-height: normal;
+  }
+}
+.fs-4-5 {
+  font-size: 4.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-5 {
+    font-size: 4.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-5 {
+    font-size: 4.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-5 {
+    font-size: 4.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-5 {
+    font-size: 4.5em;
+    line-height: normal;
+  }
+}
+.fs-4-6 {
+  font-size: 4.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-6 {
+    font-size: 4.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-6 {
+    font-size: 4.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-6 {
+    font-size: 4.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-6 {
+    font-size: 4.6em;
+    line-height: normal;
+  }
+}
+.fs-4-7 {
+  font-size: 4.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-7 {
+    font-size: 4.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-7 {
+    font-size: 4.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-7 {
+    font-size: 4.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-7 {
+    font-size: 4.7em;
+    line-height: normal;
+  }
+}
+.fs-4-8 {
+  font-size: 4.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-8 {
+    font-size: 4.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-8 {
+    font-size: 4.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-8 {
+    font-size: 4.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-8 {
+    font-size: 4.8em;
+    line-height: normal;
+  }
+}
+.fs-4-9 {
+  font-size: 4.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-4-9 {
+    font-size: 4.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-4-9 {
+    font-size: 4.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-4-9 {
+    font-size: 4.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-4-9 {
+    font-size: 4.9em;
+    line-height: normal;
+  }
+}
+.fs-5-0 {
+  font-size: 5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-0 {
+    font-size: 5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-0 {
+    font-size: 5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-0 {
+    font-size: 5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-0 {
+    font-size: 5em;
+    line-height: normal;
+  }
+}
+.fs-5-1 {
+  font-size: 5.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-1 {
+    font-size: 5.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-1 {
+    font-size: 5.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-1 {
+    font-size: 5.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-1 {
+    font-size: 5.1em;
+    line-height: normal;
+  }
+}
+.fs-5-2 {
+  font-size: 5.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-2 {
+    font-size: 5.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-2 {
+    font-size: 5.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-2 {
+    font-size: 5.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-2 {
+    font-size: 5.2em;
+    line-height: normal;
+  }
+}
+.fs-5-3 {
+  font-size: 5.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-3 {
+    font-size: 5.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-3 {
+    font-size: 5.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-3 {
+    font-size: 5.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-3 {
+    font-size: 5.3em;
+    line-height: normal;
+  }
+}
+.fs-5-4 {
+  font-size: 5.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-4 {
+    font-size: 5.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-4 {
+    font-size: 5.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-4 {
+    font-size: 5.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-4 {
+    font-size: 5.4em;
+    line-height: normal;
+  }
+}
+.fs-5-5 {
+  font-size: 5.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-5 {
+    font-size: 5.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-5 {
+    font-size: 5.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-5 {
+    font-size: 5.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-5 {
+    font-size: 5.5em;
+    line-height: normal;
+  }
+}
+.fs-5-6 {
+  font-size: 5.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-6 {
+    font-size: 5.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-6 {
+    font-size: 5.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-6 {
+    font-size: 5.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-6 {
+    font-size: 5.6em;
+    line-height: normal;
+  }
+}
+.fs-5-7 {
+  font-size: 5.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-7 {
+    font-size: 5.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-7 {
+    font-size: 5.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-7 {
+    font-size: 5.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-7 {
+    font-size: 5.7em;
+    line-height: normal;
+  }
+}
+.fs-5-8 {
+  font-size: 5.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-8 {
+    font-size: 5.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-8 {
+    font-size: 5.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-8 {
+    font-size: 5.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-8 {
+    font-size: 5.8em;
+    line-height: normal;
+  }
+}
+.fs-5-9 {
+  font-size: 5.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-5-9 {
+    font-size: 5.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-5-9 {
+    font-size: 5.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-5-9 {
+    font-size: 5.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-5-9 {
+    font-size: 5.9em;
+    line-height: normal;
+  }
+}
+.fs-6-0 {
+  font-size: 6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-0 {
+    font-size: 6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-0 {
+    font-size: 6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-0 {
+    font-size: 6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-0 {
+    font-size: 6em;
+    line-height: normal;
+  }
+}
+.fs-6-1 {
+  font-size: 6.1em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-1 {
+    font-size: 6.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-1 {
+    font-size: 6.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-1 {
+    font-size: 6.1em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-1 {
+    font-size: 6.1em;
+    line-height: normal;
+  }
+}
+.fs-6-2 {
+  font-size: 6.2em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-2 {
+    font-size: 6.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-2 {
+    font-size: 6.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-2 {
+    font-size: 6.2em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-2 {
+    font-size: 6.2em;
+    line-height: normal;
+  }
+}
+.fs-6-3 {
+  font-size: 6.3em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-3 {
+    font-size: 6.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-3 {
+    font-size: 6.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-3 {
+    font-size: 6.3em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-3 {
+    font-size: 6.3em;
+    line-height: normal;
+  }
+}
+.fs-6-4 {
+  font-size: 6.4em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-4 {
+    font-size: 6.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-4 {
+    font-size: 6.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-4 {
+    font-size: 6.4em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-4 {
+    font-size: 6.4em;
+    line-height: normal;
+  }
+}
+.fs-6-5 {
+  font-size: 6.5em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-5 {
+    font-size: 6.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-5 {
+    font-size: 6.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-5 {
+    font-size: 6.5em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-5 {
+    font-size: 6.5em;
+    line-height: normal;
+  }
+}
+.fs-6-6 {
+  font-size: 6.6em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-6 {
+    font-size: 6.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-6 {
+    font-size: 6.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-6 {
+    font-size: 6.6em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-6 {
+    font-size: 6.6em;
+    line-height: normal;
+  }
+}
+.fs-6-7 {
+  font-size: 6.7em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-7 {
+    font-size: 6.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-7 {
+    font-size: 6.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-7 {
+    font-size: 6.7em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-7 {
+    font-size: 6.7em;
+    line-height: normal;
+  }
+}
+.fs-6-8 {
+  font-size: 6.8em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-8 {
+    font-size: 6.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-8 {
+    font-size: 6.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-8 {
+    font-size: 6.8em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-8 {
+    font-size: 6.8em;
+    line-height: normal;
+  }
+}
+.fs-6-9 {
+  font-size: 6.9em;
+  line-height: normal;
+}
+
+@media all and (min-width: 400px) {
+  .fs-sm-6-9 {
+    font-size: 6.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 700px) {
+  .fs-md-6-9 {
+    font-size: 6.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 900px) {
+  .fs-lg-6-9 {
+    font-size: 6.9em;
+    line-height: normal;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fs-xl-6-9 {
+    font-size: 6.9em;
+    line-height: normal;
+  }
+}
